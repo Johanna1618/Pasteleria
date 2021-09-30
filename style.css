@@ -1,0 +1,101 @@
+body {
+  margin-top: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e6e4d9;
+  background-image: url("images/pattern.png");
+}
+
+#mainheader {
+  background-color: #a593c2;
+  align-items: center;
+  display: flex;
+}
+
+.logo,
+.nav_links {
+  display: flex;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+nav {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.nav_links {
+  float: right;
+  list-style: none;
+  font-size: medium;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: rgb(102, 75, 132);
+  }
+
+.container {
+    display: flex;
+    padding: 5px;
+}
+
+#leftmenu {
+  float: left;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+#righttmenu {
+  float: right;
+  width: 15%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.searchbox {
+  padding: 5px;
+  margin: 10px 10px;
+  width: 200px;
+}
+
+#main {
+  float: right;
+  width: 800px;
+  margin-bottom: 20px;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  padding: 10px;
+  background-color: #a593c2;
+}
+
+section,
+footer,
+aside,
+main,
+article,
+figure {
+  display: block;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
